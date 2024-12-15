@@ -6,8 +6,6 @@ function App() {
   return (
     <div>
       <NavigationBar/>
-      <NavigationBar/>
-      <NavigationBar/>
     </div>
   );
 }
