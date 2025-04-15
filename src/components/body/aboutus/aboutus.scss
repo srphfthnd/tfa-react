@@ -1,0 +1,34 @@
+.aboutus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 56px;
+    flex: 1 0 100%;
+    max-width: 1280px;
+    justify-self: center;
+
+    .aboutus-img {
+        margin-block-end: 32px;
+    }
+
+    .aboutus-title {
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #595959;
+        letter-spacing: 0.091em;
+        margin-block-end: 40px;
+    }
+
+    .aboutus-message {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #5E5E5E;
+        max-width: 64%;
+        align-self: center;
+
+        p {
+            margin: 0;
+        }
+    }
+}

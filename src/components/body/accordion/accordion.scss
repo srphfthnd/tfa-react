@@ -1,0 +1,33 @@
+.accordion {
+  padding: 20px 18px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  color: #1F1F1F;
+  margin: 0 40px 16px;
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+    margin: 12px;
+  }
+
+  .accordion-title {
+    cursor: pointer;
+  }
+
+  .accordion-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .toggled {
+    max-height: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+}

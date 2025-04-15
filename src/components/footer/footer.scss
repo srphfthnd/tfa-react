@@ -1,0 +1,54 @@
+.footer-container {
+    display: flex;
+    flex: 1 0 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    padding-block: 56px;
+    color: rgb(169, 169, 169);
+    text-transform: uppercase;
+    letter-spacing: 0.167em;
+    font-size: 14px;
+
+    .other-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 0;
+            list-style: none;
+            cursor: pointer;
+
+            .list {
+                padding: 8px;
+            }
+
+            .list:hover{
+                color: rgb(122, 190, 250);
+            }
+        }
+    }
+
+    .footer-title {
+        padding-block: 40px;
+
+        h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(247, 247, 247);
+        }
+        
+    }
+
+    .copyright {
+        p {
+            margin: 0;
+        }
+    }
+}

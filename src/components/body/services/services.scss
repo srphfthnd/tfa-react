@@ -1,0 +1,74 @@
+.servicespage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 56px;
+
+    h3 {
+        margin: 0;
+        font-size: 24px;
+        color: #595959;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 0.091em;
+        padding-block-end: 40px;
+    }
+
+    h2 {
+        color: #575757;
+        font-weight: 400;
+    }
+
+    .grid-menu {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        max-width: 1280px;
+
+        .grid {
+            display: flex;
+            flex-direction: row;
+            flex: 1 0 100%;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 25%;
+                justify-content: center;
+                align-items: center;
+                padding: 0 24px 48px;
+
+                .card-img {
+                    width: 365px;
+                    border-radius: 50%;
+                    padding-block-end: 24px;
+                }
+
+                .card-title {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+
+                .card-desc {
+                    font-size: 18px;
+                    color: #5e5e5e;
+                    align-self: flex-start;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .coming-soon {
+        display: flex;
+        justify-content: center;
+        background-color: #F6FAFF;
+        width: 100%;
+        max-width: 44%;
+    }
+}
