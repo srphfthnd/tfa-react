@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tfa-react/static/css/main.4d6dcfe6.css",
-    "main.js": "/tfa-react/static/js/main.18521a19.js",
+    "main.css": "/tfa-react/static/css/main.853a6ddd.css",
+    "main.js": "/tfa-react/static/js/main.2ee8bc0c.js",
     "static/js/488.e6b9124b.chunk.js": "/tfa-react/static/js/488.e6b9124b.chunk.js",
     "static/media/process.png": "/tfa-react/static/media/process.7e1d558bcdf8c3800015.png",
     "static/media/our-advantage-bg.jpg": "/tfa-react/static/media/our-advantage-bg.bd8545fa79d300468e89.jpg",
@@ -23,12 +23,12 @@
     "index.html": "/tfa-react/index.html",
     "static/media/plus-sign-see-more.svg": "/tfa-react/static/media/plus-sign-see-more.b172a4116d57ee15fd0e42dbd9c136a1.svg",
     "static/media/minus-sign-see-more.svg": "/tfa-react/static/media/minus-sign-see-more.276f2747b470a1185880afb672c71de4.svg",
-    "main.4d6dcfe6.css.map": "/tfa-react/static/css/main.4d6dcfe6.css.map",
-    "main.18521a19.js.map": "/tfa-react/static/js/main.18521a19.js.map",
+    "main.853a6ddd.css.map": "/tfa-react/static/css/main.853a6ddd.css.map",
+    "main.2ee8bc0c.js.map": "/tfa-react/static/js/main.2ee8bc0c.js.map",
     "488.e6b9124b.chunk.js.map": "/tfa-react/static/js/488.e6b9124b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d6dcfe6.css",
-    "static/js/main.18521a19.js"
+    "static/css/main.853a6ddd.css",
+    "static/js/main.2ee8bc0c.js"
   ]
 }
