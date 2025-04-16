@@ -8,9 +8,10 @@ import homeimg2 from '../../../assets/home-img2.webp';
 import homeimg3 from '../../../assets/home-img3.webp';
 import { ReactComponent as PlusSign } from '../../../assets/plus-sign-see-more.svg';
 import { ReactComponent as MinusSign } from '../../../assets/minus-sign-see-more.svg';
+import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
-
+    const navigate = useNavigate();
     const [expanded, setExpanded] = useState({
         A: false,
         B: false,
@@ -22,6 +23,10 @@ function HomePage() {
             ...prev,
             [key]: !prev[key]
         }))
+    }
+
+    const pageRedirect = (page) => {
+        navigate(page);
     }
 
     return (
@@ -42,7 +47,7 @@ function HomePage() {
                     <div className='caption'>
                         <p><span>Gibb Consulting, Inc has been successfully advising and assisting small and medium sized businesses since early 2005</span></p>
                     </div>
-                    <div className='button'>
+                    <div className='button' onClick={() => pageRedirect('/contact-us')}>
                         <div className='call-us'>
                             <a>Call Us now</a>
                         </div>

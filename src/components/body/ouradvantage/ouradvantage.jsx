@@ -13,8 +13,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import processimg from "../../../assets/process.png";
 import QuestionsPage from "../questions/questions";
+import { useNavigate } from "react-router-dom";
 
 function OurAdvantage() {
+  const navigate = useNavigate();
+
+  const pageRedirect = (page) => {
+    navigate(page);
+}
+
   return (
     <div className="ouradvantage-container">
       <div className="ouradvantage-upper">
@@ -83,7 +90,7 @@ function OurAdvantage() {
               </li>
             </ul>
           </div>
-          <div className="button">
+          <div className="button" onClick={() => pageRedirect('/contact-us')}>
             <div className="call-us">
               <a>Call Us now</a>
             </div>
