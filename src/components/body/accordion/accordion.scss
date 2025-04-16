@@ -23,11 +23,10 @@
   .accordion-details {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease;
   }
 
   .toggled {
     max-height: 200px;
-    transition: all 0.5s ease-in-out;
   }
 }

@@ -83,11 +83,14 @@
             color: #A9A9A9;
             letter-spacing: 0.167em;
             text-transform: uppercase;
-            cursor: pointer;
             word-break: break-word;
             max-width: 95px;
             text-align: center;
             align-items: center;
+        }
+
+        a {
+            cursor: pointer;
         }
 
         .list:hover {
