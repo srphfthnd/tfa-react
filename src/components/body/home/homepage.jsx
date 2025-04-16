@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './homepage.scss';
 import homebackground from '../../../assets/home-bg.webp';
+import homebackground2 from '../../../assets/homebg2.jpg';
+import homebackground3 from '../../../assets/homebg3.jpg';
 import homeimg1 from '../../../assets/home-img1.webp';
 import homeimg2 from '../../../assets/home-img2.webp';
 import homeimg3 from '../../../assets/home-img3.webp';
@@ -25,7 +27,12 @@ function HomePage() {
     return (
         <div className='section-container'>
             <div className='section section-a'>
-                <img className='home-background' src={homebackground} />
+                <div className='slides'>
+                    <img className='home-background slide' src={homebackground} />
+                    <img className='home-background slide' src={homebackground2} />
+                    <img className='home-background slide' src={homebackground3} />
+                    <img className='home-background slide' src={homebackground} />
+                </div>
             </div>
             <div className='section section-b'>
                 <div className='intro'>
