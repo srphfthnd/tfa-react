@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tfa-react/static/css/main.3a8b9ac0.css",
-    "main.js": "/tfa-react/static/js/main.96e028a5.js",
+    "main.js": "/tfa-react/static/js/main.f9fdef38.js",
     "static/js/488.e6b9124b.chunk.js": "/tfa-react/static/js/488.e6b9124b.chunk.js",
     "static/media/homebg3.jpg": "/tfa-react/static/media/homebg3.3da2eccf84e6241853a6.jpg",
     "static/media/homebg2.jpg": "/tfa-react/static/media/homebg2.2497364e2351e73cabed.jpg",
@@ -26,11 +26,11 @@
     "static/media/plus-sign-see-more.svg": "/tfa-react/static/media/plus-sign-see-more.b172a4116d57ee15fd0e42dbd9c136a1.svg",
     "static/media/minus-sign-see-more.svg": "/tfa-react/static/media/minus-sign-see-more.276f2747b470a1185880afb672c71de4.svg",
     "main.3a8b9ac0.css.map": "/tfa-react/static/css/main.3a8b9ac0.css.map",
-    "main.96e028a5.js.map": "/tfa-react/static/js/main.96e028a5.js.map",
+    "main.f9fdef38.js.map": "/tfa-react/static/js/main.f9fdef38.js.map",
     "488.e6b9124b.chunk.js.map": "/tfa-react/static/js/488.e6b9124b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a8b9ac0.css",
-    "static/js/main.96e028a5.js"
+    "static/js/main.f9fdef38.js"
   ]
 }
