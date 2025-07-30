@@ -9,11 +9,13 @@ import AboutUsPage from './components/body/aboutus/aboutus';
 import FaqPage from './components/body/faq/faqpage';
 import ReviewUsPage from './components/body/reviewus/reviewus';
 import Footer from './components/footer/footer';
+import Banner from './components/header/navigation-bar/banner';
 
 function App() {
   return (
-    <>
+    <div className='app-root'>
       <Router>
+        <Banner/>
         <NavigationBar/>
         <Routes>
           <Route path='*' element={<HomePage/>} />
@@ -25,7 +27,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
-    </>
+    </div>
   );
 }
 
