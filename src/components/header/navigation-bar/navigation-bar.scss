@@ -59,7 +59,7 @@
     align-self: flex-start;
     padding-block: 21px;
     flex-basis: 20%;
-    
+
     .logo {
         font-family: "Quicksand", sans-serif;
         font-size: 24px !important;
@@ -140,7 +140,7 @@
         flex-direction: column;
         overflow: hidden;
     }
-    
+
     .nav-container {
         display: flex;
         position: fixed;
@@ -189,7 +189,7 @@
         align-self: flex-end;
         padding: 14px 30px;
         flex-basis: 0%;
-        
+
         .logo {
             display: none;
         }
@@ -201,7 +201,6 @@
             padding: 6px;
         }
     }
-
 
     .header-menu {
         display: flex;
@@ -244,7 +243,7 @@
                 color: rgb(122, 190, 250);
             }
         }
-        
+
         .sidebar-open.menu {
             opacity: 1;
             transform: translateX(0);
