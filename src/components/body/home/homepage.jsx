@@ -90,9 +90,9 @@ function HomePage() {
                         </div>
                     </div>
                     <div className='subscribe'>
-                        <label className="subs-input-title">Subscribe</label>
+                        <div className="subs-input-title">Subscribe</div>
                         <form className='subs-input'>
-                            <input className="subs-input-field" id='email' placeholder='' />
+                            <input className="subs-input-field" id='email' placeholder='' autoComplete='true'/>
                             <label className="subs-input-label" for='email'>Email Address</label>
                             <div className='button'>
                                 <div className='call-us'>
