@@ -1,19 +1,20 @@
 .question-section {
   display: flex;
-  flex-grow: 1;
+  flex: 1 0 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(93, 99, 107);
   padding-block: 54px;
   width: 100%;
+  box-sizing: border-box;
 
   .question-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 1280px;
-    flex-basis: 100%;
+    flex: 1 0 100%;
 
     .question-icon {
       display: flex;
@@ -173,4 +174,28 @@
     justify-content: flex-start;
     flex-grow: 1;
   }
+}
+
+@media screen and (max-width: 600px) {
+    .question-section {
+        flex: 1 0 100%;
+        .question-form {
+            width: fit-content;;
+            .questions .subs-input {
+                flex-basis: 100%;
+            }
+
+            .question-button {
+                display: flex;
+                flex: 1 0 100%;
+                align-self: center;
+                justify-content: center;
+                padding-inline-end: 0;
+                width: 90%;
+                .button {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

@@ -101,7 +101,7 @@ function OurAdvantage() {
         <div className="ouradvantage-info">
           <div className="info-title">
             <h3>
-              Gibb Consulting Inc can extend capital to all established
+              Gibb Consulting Inc. can extend capital to all established
               businesses in nearly every industry.
             </h3>
           </div>
@@ -284,7 +284,7 @@ function OurAdvantage() {
             <p>
               <strong>
                 Now you're off to achieving your goals, using your cash flow to
-                take your business to the next level. <a href="">Apply now!</a>
+                take your business to the next level. <a className="apply-now" href="">Apply now!</a>
               </strong>
             </p>
           </div>
