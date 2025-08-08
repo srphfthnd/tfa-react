@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/tfa-react/static/css/main.826e35a6.css",
+    "main.js": "/tfa-react/static/js/main.222b6ac3.js",
+    "static/js/488.c53676e3.chunk.js": "/tfa-react/static/js/488.c53676e3.chunk.js",
+    "static/media/homebg3.jpg": "/tfa-react/static/media/homebg3.3da2eccf84e6241853a6.jpg",
+    "static/media/homebg2.jpg": "/tfa-react/static/media/homebg2.2497364e2351e73cabed.jpg",
+    "static/media/our-advantage-bg2.jpg": "/tfa-react/static/media/our-advantage-bg2.e7b132eb8194db6ec06a.jpg",
+    "static/media/process.png": "/tfa-react/static/media/process.7e1d558bcdf8c3800015.png",
+    "static/media/contactus.webp": "/tfa-react/static/media/contactus.719e1688dfc4f3563c5f.webp",
+    "static/media/home-bg.webp": "/tfa-react/static/media/home-bg.146d919257a8cdca7e89.webp",
+    "static/media/servicesimg6.webp": "/tfa-react/static/media/servicesimg6.a53c66ec011efad5f0c1.webp",
+    "static/media/servicesimg7.webp": "/tfa-react/static/media/servicesimg7.330bb7dd697e368148a3.webp",
+    "static/media/servicesimg4.webp": "/tfa-react/static/media/servicesimg4.5213d6127a0c6786e475.webp",
+    "static/media/servicesimg8.webp": "/tfa-react/static/media/servicesimg8.8ccc233fa5d4cbbd6bed.webp",
+    "static/media/aboutus.webp": "/tfa-react/static/media/aboutus.693c82d574639881a3f3.webp",
+    "static/media/servicesimg3.webp": "/tfa-react/static/media/servicesimg3.d2433ab2ffb0a2c608da.webp",
+    "static/media/servicesimg2.webp": "/tfa-react/static/media/servicesimg2.98529f96ed5ca9a4a16c.webp",
+    "static/media/home-img1.webp": "/tfa-react/static/media/home-img1.c6232f42aa2930e3932e.webp",
+    "static/media/servicesimg5.webp": "/tfa-react/static/media/servicesimg5.56be708b673a46f24cf2.webp",
+    "static/media/servicesimg1.webp": "/tfa-react/static/media/servicesimg1.fffb60ef3c5bc59a9ae9.webp",
+    "static/media/home-img2.webp": "/tfa-react/static/media/home-img2.b053022701f637f0f18b.webp",
+    "static/media/home-img3.webp": "/tfa-react/static/media/home-img3.ab3291af09d2ffc9298d.webp",
+    "static/media/login.svg": "/tfa-react/static/media/login.4f16dea1dd0a7c626265fae27802bb19.svg",
+    "index.html": "/tfa-react/index.html",
+    "static/media/plus-sign-see-more.svg": "/tfa-react/static/media/plus-sign-see-more.b172a4116d57ee15fd0e42dbd9c136a1.svg",
+    "static/media/minus-sign-see-more.svg": "/tfa-react/static/media/minus-sign-see-more.276f2747b470a1185880afb672c71de4.svg",
+    "main.826e35a6.css.map": "/tfa-react/static/css/main.826e35a6.css.map",
+    "main.222b6ac3.js.map": "/tfa-react/static/js/main.222b6ac3.js.map",
+    "488.c53676e3.chunk.js.map": "/tfa-react/static/js/488.c53676e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.826e35a6.css",
+    "static/js/main.222b6ac3.js"
+  ]
+}
