@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contactus.scss';
 
-function ContactUs() {
+function   ContactUs() {
 
     const [expanded, setExpanded] = useState(true);
 
