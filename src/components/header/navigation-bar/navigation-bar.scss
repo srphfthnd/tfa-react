@@ -1,11 +1,11 @@
 .nav-banner {
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: var(--yellow);
-    padding-block: 8px;
+    padding-block: 10px;
     z-index: 1000;
 
     .nav-content {
@@ -19,7 +19,8 @@
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     z-index: 999;
     top: 34px;
     display: flex;

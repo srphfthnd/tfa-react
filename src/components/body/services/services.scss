@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-block: 56px;
+    padding-block: 106px;
 
     h3 {
         margin: 0;
@@ -12,7 +12,8 @@
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 0.091em;
-        padding-block-end: 40px;
+        padding-block: 40px;
+        top: 0px;
     }
 
     h2 {
@@ -57,8 +58,12 @@
                 .card-desc {
                     font-size: 18px;
                     color: #5e5e5e;
-                    align-self: flex-start;
+                    align-self: center;
                     line-height: 1.5;
+
+                    ul {
+                        text-align: left;
+                    }
                 }
             }
         }
@@ -70,5 +75,15 @@
         background-color: #F6FAFF;
         width: 100%;
         max-width: 44%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .servicespage {
+        padding-block: 94px;
+
+        h3 {
+            padding-block: 40px;
+        }
     }
 }

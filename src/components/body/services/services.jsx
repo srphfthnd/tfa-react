@@ -1,4 +1,3 @@
-import React from 'react';
 import './services.scss';
 import servicesimg1 from '../../../assets/servicesimg1.webp';
 import servicesimg2 from '../../../assets/servicesimg2.webp';
