@@ -23,6 +23,7 @@
             justify-content: space-evenly;
             margin: 0;
             list-style: none;
+            padding: 0;
             cursor: pointer;
 
             .list {
@@ -49,6 +50,22 @@
     .copyright {
         p {
             margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-container {
+        .other-menu {
+            .menu {
+                flex-direction: column;
+            }
+        }
+
+        .copyright {
+            p {
+                margin-inline: 16px;
+            }
         }
     }
 }

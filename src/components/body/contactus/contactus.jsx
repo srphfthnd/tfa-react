@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contactus.scss';
 
-function   ContactUs() {
+function ContactUs({isComponent}) {
 
     const [expanded, setExpanded] = useState(true);
 
@@ -11,7 +11,7 @@ function   ContactUs() {
 
     return (
         <>
-            <div className='contactus-container'>
+            <div className={`contactus-container ${isComponent ? 'fixed-padding' : ''}`}>
                 <div className='form-title'>
                     <h3>Contact Us</h3>
                 </div>
@@ -51,7 +51,7 @@ function   ContactUs() {
                         <div className='message sub-message'>
                             {
                                 expanded 
-                                ? <a onClick={toggleExpand}>Open today <span className='sched-theme'>09:00 am - 05:00 pm</span></a>
+                                ? <a>Open today <span onClick={toggleExpand} className='sched-theme'>09:00 am - 05:00 pm</span></a>
                                 : 
                                     <>
                                         <table className='sched-table' style={{lineHeight: 1.25}}>

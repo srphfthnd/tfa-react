@@ -32,6 +32,29 @@
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .aboutus-container {
+
+        .aboutus-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .aboutus-message {
+            max-width: fit-content;
+
+            p {
+                text-align: left;
+                align-self: flex-start;
+                margin-inline: 16px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .aboutus-container {
 
@@ -40,6 +63,16 @@
 
             img {
                 width: 100%;
+            }
+        }
+
+        .aboutus-message {
+            max-width: fit-content;
+
+            p {
+                text-align: left;
+                align-self: flex-start;
+                margin-inline: 16px;
             }
         }
     }

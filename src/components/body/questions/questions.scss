@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(93, 99, 107);
-  padding-block: 54px;
+  padding: 54px 0;
   width: 100%;
   box-sizing: border-box;
 
@@ -47,14 +47,14 @@
       flex-direction: row;
       flex: 1 0 100%;
       justify-content: space-between;
-      padding-inline: 24px;
+    //   padding-inline: 24px;
       flex-wrap: wrap;
     }
 
     .question-button {
       display: flex;
       align-self: flex-end;
-      padding-inline-end: 24px;
+    //   padding-inline: 0 24px;
     }
   }
 
@@ -176,11 +176,20 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+    .question-section {
+        padding: 54px 24px;
+        .question-form {
+            width: 100%;
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .question-section {
         flex: 1 0 100%;
         .question-form {
-            width: fit-content;;
+            width: 100%;
             .questions .subs-input {
                 flex-basis: 100%;
             }
@@ -188,10 +197,10 @@
             .question-button {
                 display: flex;
                 flex: 1 0 100%;
-                align-self: center;
+                align-self: stretch;
                 justify-content: center;
-                padding-inline-end: 0;
-                width: 90%;
+                // padding-inline: 24px;
+                // width: 100%;
                 .button {
                     width: 100%;
                 }

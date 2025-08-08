@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import NavigationBar from './components/header/navigation-bar/navigation-bar';
