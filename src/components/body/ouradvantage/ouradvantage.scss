@@ -25,15 +25,16 @@
         background-image: linear-gradient(to bottom,
                 rgba(0, 0, 0, 0.6) 0%,
                 rgba(0, 0, 0, 0.6) 100%),
-            url("../../../assets/our-advantage-bg.jpg");
+            url("../../../assets/our-advantage-bg2.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: fit-content;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
         width: 100%;
+        padding-block: 20vh 10vh;
 
         .ouradvantage-content {
             display: flex;
@@ -41,10 +42,9 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: flex-start;
-            padding: 16vh 20px;
-            width: 1280px;
             color: #fff;
             font-family: "Muli", sans-serif;
+            padding: 10vh 10vw;
             gap: 0px;
 
             .list {
@@ -79,7 +79,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            width: 1280px;
 
             .info-title,
             .info-desc {
@@ -152,7 +151,6 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-evenly;
-            width: 1280px;
 
             .process-col {
                 display: flex;
@@ -231,10 +229,100 @@
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .ouradvantage-container {
+        align-self: center;
+
+        .ouradvantage-upper {
+            align-items: center;
+            padding-block: 22vh 12vh;
+
+            .ouradvantage-content {
+                align-self: center;
+            }
+        }
+
+        .ouradvantage-info-section {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: rgb(93, 99, 107);
+            padding-block: 54px;
+            width: 100%;
+
+            .ouradvantage-info {
+
+                .info-title,
+                .info-desc {
+                }
+
+                .info-title {
+                    h3 {
+                        font-size: 20px !important;
+                    }
+                }
+
+                .info-grid {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    flex: 0 0 100%;
+                    justify-content: center;
+
+                    .info-card {
+                        display: flex;
+                        flex-direction: column;
+                        flex: 0 1 40%;
+                        padding: 28px 10px;
+                        align-items: center;
+                        gap: 16px;
+
+                        .card-title,
+                        .card-icon,
+                        .card-desc {
+                            display: flex;
+                            justify-content: center;
+                            text-align: center;
+                        }
+
+                        .card-icon {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #4c9aff;
+                            border-radius: 50%;
+                            width: 100px;
+                            height: 100px;
+                            margin-block-end: 0;
+                        }
+
+                        .card-title {
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+
+                        .card-desc {
+                            font-size: 16px;
+
+                            p {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .ouradvantage-container {
         .ouradvantage-upper {
             height: fit-content;
+            align-items: center;
+            padding-block: 10vh;
 
             .ouradvantage-content {
                 align-items: center;

@@ -1,15 +1,14 @@
 .aboutus-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-block: 56px;
+    padding-block: 106px 56px;
     flex: 1 0 100%;
-    max-width: 1280px;
-    justify-self: center;
+    width: 100%;
+    align-items: center;
+    align-self: center;
 
     .aboutus-img {
-        margin-block-end: 32px;
+        margin-block: 60px;
     }
 
     .aboutus-title {
@@ -29,6 +28,52 @@
 
         p {
             margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .aboutus-container {
+
+        .aboutus-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .aboutus-message {
+            max-width: fit-content;
+
+            p {
+                text-align: left;
+                align-self: flex-start;
+                margin-inline: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutus-container {
+
+        .aboutus-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .aboutus-message {
+            max-width: fit-content;
+
+            p {
+                text-align: left;
+                align-self: flex-start;
+                margin-inline: 16px;
+            }
         }
     }
 }

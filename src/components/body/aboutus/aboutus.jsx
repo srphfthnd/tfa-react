@@ -35,7 +35,7 @@ function AboutUs() {
                     </p>
                 </div>
             </div>
-            <ContactUs/>
+            <ContactUs isComponent={true}/>
         </>
     );
 }

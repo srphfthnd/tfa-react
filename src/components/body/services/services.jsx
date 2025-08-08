@@ -1,4 +1,3 @@
-import React from 'react';
 import './services.scss';
 import servicesimg1 from '../../../assets/servicesimg1.webp';
 import servicesimg2 from '../../../assets/servicesimg2.webp';
@@ -19,10 +18,32 @@ function Services() {
                         <div className='card'>
                             <img className='card-img' src={servicesimg1} />
                             <div className='card-title'>Equipment Financing</div>
+                            <div className='card-desc'>
+                                <ul>
+                                    <li>Equipment Financing</li>
+                                    <li>Leasing Solutions</li>
+                                    <li>Refinancing Options</li>
+                                    <li>Customized Payment Plans</li>
+                                    <li>Consulting Services</li>
+                                    <li>Tailored Financing Solutions</li>
+                                    <li>Support and Maintenance Financing</li>
+                                    <li>Technology Upgrades and Trade-In Programs</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='card'>
                             <img className='card-img' src={servicesimg3} />
                             <div className='card-title'>Invoice Factoring</div>
+                            <div className='card-desc'>
+                                <ul>
+                                    <li>Advance Rates and Fee Structures</li>
+                                    <li>Cash Flow Management</li>
+                                    <li>Credit Control and Management</li>
+                                    <li>Customized Factoring Solutions</li>
+                                    <li>Flexible Contract Terms</li>
+                                    <li>Financial Consulting and Advisory</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='card'>
                             <img className='card-img' src={servicesimg2} />
@@ -31,18 +52,50 @@ function Services() {
                         <div className='card'>
                             <img className='card-img' src={servicesimg4} />
                             <div className='card-title'>Equipment Leasing</div>
+                            <div className='card-desc'>
+                                <ul>
+                                    <li>Leasing Options</li>
+                                    <li>Flexible Payment Plans</li>
+                                    <li>Maintenance and Support</li>
+                                    <li>End-of-Lease Options</li>
+                                    <li>Consulting Services</li>
+                                    <li>Custom Leasing Solutions</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='card'>
                             <img className='card-img' src={servicesimg5} />
                             <div className='card-title'>Card Credit Processing</div>
-                        </div>
-                        <div className='card'>
-                            <img className='card-img' src={servicesimg6} />
-                            <div className='card-title'>Digital Presence Optimization</div>
+                            <div className='card-desc'>
+                                <ul>
+                                    <li>Merchant Account Setup</li>
+                                    <li>Payment Gateway Integration</li>
+                                    <li>Reporting and Analytics</li>
+                                    <li>Customer Support</li>
+                                    <li>Online Payment Solutions</li>
+                                    <li>Flexible Payment Options</li>
+                                    <li>Customizable Solutions</li>
+                                    <li>Fee Structures</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='card'>
                             <img className='card-img' src={servicesimg7} />
                             <div className='card-title'>Business Credit Establishment</div>
+                            <div className='card-desc'>
+                                <ul>
+                                    <li>Business Credit Assessment</li>
+                                    <li>Credit Building Stategies</li>
+                                    <li>Credit Monitoring and Alerts</li>
+                                    <li>Vendor and Supplier Relationships</li>
+                                    <li>Business Credit Cards</li>
+                                    <li>Financial State Preparation</li>
+                                    <li>Credit Line Establishment</li>
+                                    <li>Loan Application Support</li>
+                                    <li>Risk Management and Compliance</li>
+                                    <li>Credit Reporting Disputes</li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='card'>
                             <img className='card-img' src={servicesimg8} />
@@ -55,7 +108,7 @@ function Services() {
                                     <li>Equipment Loans</li>
                                     <li>SBA Loan</li>
                                     <li>Asset Based Loan</li>
-                                    <li>Invoice&nbsp;Factoring</li>
+                                    <li>Invoice Factoring</li>
                                 </ul>
                             </div>
                         </div>

@@ -1,31 +1,31 @@
-import { useEffect, useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import './navigation-bar.scss'
-import { ReactComponent as UserLogo } from '../../../assets/login.svg';
-import { faCartShopping, faX } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
-import WidthChecker from '../../../utils/widthChecker';
+import { useEffect, useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import "./navigation-bar.scss";
+import { ReactComponent as UserLogo } from "../../../assets/login.svg";
+import { faCartShopping, faX } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
+import WidthChecker from "../../../utils/widthChecker";
 
 function NavigationBar() {
     const navigate = useNavigate();
     const location = useLocation();
-    const isMobile = WidthChecker() === 's';
+    const isMobile = WidthChecker() === "s";
 
     const [toggleSideBar, setToggleSideBar] = useState(false);
 
     const pageRedirect = (page) => {
         navigate(page);
         setToggleSideBar(false);
-    }
+    };
 
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [location])
+        window.scrollTo(0, 0);
+    }, [location]);
 
     const handleToggleBarLines = () => {
         setToggleSideBar(!toggleSideBar);
-    }
+    };
 
     return (
         <div className="navbar">
@@ -53,6 +53,10 @@ function NavigationBar() {
                             className={`menu ${
                                 toggleSideBar ? "sidebar-open" : ""
                             }`}
+                            style={{
+                                fontSize: isMobile && "16px",
+                                margin: isMobile && "0",
+                            }}
                         >
                             <li className="list">
                                 <a onClick={() => pageRedirect("/")}>Home</a>
@@ -86,39 +90,54 @@ function NavigationBar() {
                             </li>
                         </ul>
                     </div>
-                        {!isMobile ? (
-                            <div className="header-user" style={{width: '100%'}}>
-                                <div className="user-logo">
-                                    <div className="logo">
-                                        <UserLogo />
-                                    </div>
+                    {!isMobile ? (
+                        <div className="header-user">
+                            <div className="user-logo">
+                                <div className="logo">
+                                    <UserLogo />
                                 </div>
                             </div>
-                        ) : (
-                            <div className="header-menu" style={{width: '100%'}}>
-                                <div className={`account-menu menu ${toggleSideBar ? "sidebar-open" : ""
-                                        }`}>
-                                    <div className='label'>Account</div>
-                                    <ul className={`menu ${toggleSideBar ? "sidebar-open" : ""
-                                        }`}
-                                    >
-                                        <li className="list">
-                                            <a onClick={() => pageRedirect("/")}>Sign In</a>
-                                        </li>
-                                        <li className="list">
-                                            <a onClick={() => pageRedirect("/")}>Bookings</a>
-                                        </li>
-                                        <li className="list">
-                                            <a onClick={() => pageRedirect("/myaccount")}>My Account</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                        </div>
+                    ) : (
+                        <div className="header-menu">
+                            <div
+                                className={`account-menu menu ${
+                                    toggleSideBar ? "sidebar-open" : ""
+                                }`}
+                            >
+                                <div className="label">Account</div>
+                                <ul
+                                    className={`menu ${
+                                        toggleSideBar ? "sidebar-open" : ""
+                                    }`}
+                                >
+                                    <li className="list">
+                                        <a onClick={() => pageRedirect("/")}>
+                                            Sign In
+                                        </a>
+                                    </li>
+                                    <li className="list">
+                                        <a onClick={() => pageRedirect("/")}>
+                                            Bookings
+                                        </a>
+                                    </li>
+                                    <li className="list">
+                                        <a
+                                            onClick={() =>
+                                                pageRedirect("/myaccount")
+                                            }
+                                        >
+                                            My Account
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                        )}
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
     );
-};
+}
 
 export default NavigationBar;
